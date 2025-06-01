@@ -1,0 +1,90 @@
+.hidden {
+  display: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('img/cutecat.jpg'); /* 본인의 경로에 맞게 수정 */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: 'Arial', sans-serif;
+  color: white;
+  text-align: center;
+}
+
+#clock {
+  font-size: 60px;
+  font-weight: bold;
+  margin-top: 50px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+#login-form input,
+#login-form button {
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+}
+
+#login-form input {
+  margin-right: 10px;
+}
+
+#greeting {
+  font-size: 32px;
+  margin: 20px 0;
+}
+
+#todo-form input {
+  padding: 10px;
+  width: 250px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
+}
+
+#todo-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+#todo-list li {
+  font-size: 18px;
+  margin: 10px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+#quote {
+  position: absolute;
+  bottom: 50px;
+  left: 20px;
+  font-style: italic;
+  font-size: 16px;
+}
+
+#weather {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  text-align: right;
+  font-size: 16px;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden; /* 스크롤도 방지 */
+}
+
+img {
+  display: none; /* 백그라운드로만 쓰고 싶다면 */
+}
